@@ -39,12 +39,7 @@ results = [
 
 @app.route('/')
 def hello():
-    return "Application : Axa-app" \
-           "Pour consulter toutes les demandes : localhost:5000/demandes    en utilisant l'action GET" \
-           "Pour consulter une demande specifique via le numero de dossier associé : localhost:5000/demandes/<num_dossier>  en utlisiant l'action GET" \
-           "Pour consulter tous les resultats : localhost:5000/results  en utlisiant l'action GET" \
-           "Pour consulter un resultat specifique : localhost:5000/resultats/<num_dossier>  en utlisiant l'action GET" \
-           "Pour ajouter une demande : localhost:5000/demandes en utilisant l'action POST "
+    return "Axa-app By Ghaith Mhamdi"
 
 
 #Cette fonction a pour role de surcharger la page par defaut de l'erreur 404 et de la remplacer par error : Not Found
